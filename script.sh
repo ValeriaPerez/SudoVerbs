@@ -1,5 +1,5 @@
-wget -O ~/.vocab "https://goo.gl/N4EiTq" --no-check-certificate
-wget -O ~/.vocabscript "https://goo.gl/gI7xKQ" --no-check-certificate
+wget -O ~/.vocab "https://raw.githubusercontent.com/ricardo-pcan/SudoVerbs/master/.vocab" --no-check-certificate
+wget -O ~/.vocabscript "https://raw.githubusercontent.com/ricardo-pcan/SudoVerbs/master/.vocabscript" --no-check-certificate
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	OSBASHRC=bashrc
