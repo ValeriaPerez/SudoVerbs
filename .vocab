@@ -1,0 +1,38 @@
+#!/bin/bash
+verbarray=(
+    'ABOLISH',
+    'ABUSE'
+    'ACCEPT',
+    'ACT',
+    'ADD'
+)
+pastarray=(
+    'ABOLISHED',
+    'ABUSED',
+    'ACCEPTED',
+    'ACTED',
+    'ADDED'
+)
+pastparticiplearray=(
+    'ABOLISHED',
+    'ABUSED',
+    'ACCEPTED',
+    'ACTED',
+    'ADDED'
+)
+
+translationarray=(
+    'ABOLIR',
+    'ABUSAR',
+    'ACEPTAR',
+    'ACTUAR',
+    'AÑADIR'
+)
+
+export verbarray
+export pastarray
+export pastparticiplearray
+export translationarray
+chmod +x ~/.vocabscript
+. ~/.vocabscript
+exit 0
