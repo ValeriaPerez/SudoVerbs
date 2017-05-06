@@ -1,3 +1,11 @@
+if [ -f ~/.vocab ]; then
+    rm ~/.vocab
+fi
+
+if [ -f ~/.vocabscript ]; then
+    rm ~/.vocabscript
+fi
+
 wget -O ~/.vocab "https://raw.githubusercontent.com/ricardo-pcan/SudoVerbs/master/.vocab" --no-check-certificate
 wget -O ~/.vocabscript "https://raw.githubusercontent.com/ricardo-pcan/SudoVerbs/master/.vocabscript" --no-check-certificate
 

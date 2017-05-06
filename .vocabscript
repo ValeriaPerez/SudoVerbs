@@ -6,14 +6,17 @@ rand=$(( ( RANDOM % size )  + 1 ))
 
 RED='\033[1;33m'
 PURPLE='\033[0;35m'
+GREEN='\033[1;32m'
+ZIAN='\033[1;36m'
+YELLOW='\033[1;36m'
 NC='\033[0m' # No Color
 bold=$(tput bold)
 normal=$(tput sgr0)
 
 printf "${bold}Verb of the session: ${RED}${verbarray[rand-1],,}${NC}\n"
-printf "${bold}In Past            : ${PURPLE}${pastarray[rand-1],,}${NC}\n"
-printf "${bold}In Past Participle : ${PURPLE}${pastparticiplearray[rand-1],,}${NC}\n"
-printf "${bold}In Translation     : ${PURPLE}${translationarray[rand-1],,}${NC}\n"
+printf "${bold}In Past            : ${GREEN}${pastarray[rand-1],,}${NC}\n"
+printf "${bold}In Past Participle : ${ZIAN}${pastparticiplearray[rand-1],,}${NC}\n"
+printf "${bold}In Translation     : ${YELLOW}${translationarray[rand-1],,}${NC}\n"
 printf "\n"
 
 exit 0
