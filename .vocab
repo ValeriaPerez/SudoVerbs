@@ -4,21 +4,54 @@ verbarray=(
     'ABUSE'
     'ACCEPT',
     'ACT',
-    'ADD'
+    'ADD',
+    'ADMIRE',
+    'ADVISE',
+    'AGREE',
+    'AIM',
+    'AMUSE',
+    'ANNOUNCE',
+    'ANSWER',
+    'APOLOGIZE',
+    'APPEAR',
+    'APPLY',
+    'ARRANGE'
 )
 pastarray=(
     'ABOLISHED',
     'ABUSED',
     'ACCEPTED',
     'ACTED',
-    'ADDED'
+    'ADDED',
+    'ADMIRED',
+    'ADVISED',
+    'AGREED',
+    'AIMED',
+    'AMUSED',
+    'ANNOUNCED',
+    'ANSWERED',
+    'APOLOGIZED',
+    'APPEARED',
+    'APPLIED',
+    'ARRANGED'
 )
 pastparticiplearray=(
     'ABOLISHED',
     'ABUSED',
     'ACCEPTED',
     'ACTED',
-    'ADDED'
+    'ADDED',
+    'ADMIRED',
+    'ADVISED',
+    'AGREED',
+    'AIMED',
+    'AMUSED',
+    'ANNOUNCED',
+    'ANSWERED',
+    'APOLOGIZED',
+    'APPEARED',
+    'APPLIED',
+    'ARRANGED'
 )
 
 translationarray=(
@@ -26,7 +59,18 @@ translationarray=(
     'ABUSAR',
     'ACEPTAR',
     'ACTUAR',
-    'AÑADIR'
+    'AÑADIR',
+    'ADMIRAR',
+    'ACONSEJAR',
+    'ESTAR DE ACUERDO',
+    'APUNTAR',
+    'DIVERTIRSE',
+    'ANUNCIAR',
+    'CONTESTAR',
+    'DISCULPARSE',
+    'APARECER',
+    'APLICAR',
+    'ARREGLAR'
 )
 
 export verbarray
